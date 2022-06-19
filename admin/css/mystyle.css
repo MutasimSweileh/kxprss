@@ -1,0 +1,22 @@
+@FONT-FACE {
+        font-family: "open";
+        src: url(Al-Jazeera-Arabic-Regular.ttf)
+}
+body{
+    font-family: "open" !important;
+}
+body[dir=rtl]{
+    direction: rtl;
+}
+        .hide{
+                display: none !important;
+        }
+        .center{
+                text-align: center;
+        }
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+        font-family: montserrat, arial, verdana;
+}

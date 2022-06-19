@@ -1,0 +1,61 @@
+#slides2_wrapper{position: relative; height: 600px;}
+#slides2 {position: relative;}
+#slides2 .slides-container {display: none;}
+#slides2 .scrollable {*zoom: 1; position: relative; top: 0; left: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; height: 100%;}
+#slides2 .scrollable:after {content: ""; display: table; clear: both;}
+#slides3_inner{padding-top: 30px;}
+#slides3_wrapper{position: relative; height: 466px;}
+#slides3 {position: relative;}
+#slides3 .slides-container {display: none;}
+#slides3 .scrollable {*zoom: 1; position: relative; top: 0; left: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; height: 100%;}
+#slides3 .scrollable:after {content: ""; display: table; clear: both;}
+.slides-container {}
+#slides2 .slides-pagination{position: absolute; left: 0; width: 100%; bottom: 20px; text-align: center; z-index: 2;}
+#slides2 .slides-pagination a{display: inline-block;width:14px; height:14px; margin: 0 5px; position: relative; text-indent: -9999%; overflow: hidden; background: #c2c2c2; border: 3px solid #fff;border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+#slides2 .slides-pagination a:hover,
+#slides2 .slides-pagination a.current{border: 2px solid #156192; background: #fff;}
+#slides2 .slides-container .caption{position: absolute; width: 100%; top: 50%;
+-ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+#slides2 .slides-container .caption .txt1{font-family: 'Handlee'; font-size: 36px; line-height: 1; color: #156192; padding-bottom: 5px;}
+#slides2 .slides-container .caption .txt2{font-weight: 500; font-size: 70px; line-height: 1; color: #333e48; padding-bottom: 20px;}
+#slides2 .slides-container .caption .txt2 span{font-size: 70%;}
+#slides2 .slides-container .caption .txt3{font-weight: 400; font-size: 16px; line-height: 1.5; color: #333e48; padding-bottom: 30px;}
+#slides2 .slides-container .caption .txt4{}
+#slides3 .slides-pagination{position: absolute; left: 50px; width: auto; right: 0; bottom: 20px; text-align: left; z-index: 2;}
+#slides3 .slides-pagination a{display: inline-block;width:14px; height:14px; margin: 0 5px; position: relative; text-indent: -9999%; overflow: hidden; background: #c2c2c2; border: 3px solid #fff;border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+#slides3 .slides-pagination a:hover,
+#slides3 .slides-pagination a.current{border: 2px solid #156192; background: #fff;}
+#slides3 .slides-container .caption{position: absolute; width: 100%; top: 50%; padding-left: 50px;
+-ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+#slides3 .slides-container .caption .txt1{font-size: 14px; line-height: 1; color: #878787; padding-bottom: 5px;}
+#slides3 .slides-container .caption .txt2{font-weight: 500; font-size: 48px; line-height: 1; color: #333e48; padding-bottom: 20px;}
+#slides3 .slides-container .caption .txt3{font-weight: 400; font-size: 16px; line-height: 1.5; color: #333e48; padding-bottom: 30px;}
+#slides3 .slides-container .caption .txt3 span{font-weight: 500; color: #156192; font-size: 30px;}
+#slides3 .slides-container .caption .txt4{}
+@media (max-width: 991px) {
+  #slides2_wrapper{height: 500px;}
+  #slides3_wrapper{height: 350px;}
+  #slides3 .slides-container .caption .txt2{font-size: 26px; padding-bottom: 10px;}
+}
+@media (max-width: 767px) {
+  #slides2_wrapper{height: 400px;}
+  #slides2 .slides-container .caption .txt1{font-size: 20px;padding-bottom: 5px;}
+  #slides2 .slides-container .caption .txt2{font-size: 30px; padding-bottom: 10px;}
+  #slides2 .slides-container .caption .txt3{font-size: 12px; padding-bottom: 10px;}
+  #slides3_wrapper{height: 300px;}
+  #slides3 .slides-container .caption .txt4{display: none;}
+}
+@media (max-width: 480px) {
+  #slides2_wrapper{height: 300px;}
+  #slides3_wrapper{height: 170px;}
+  #slides3 .slides-container .caption .txt3{display: none;}
+  #slides3 .slides-container .caption{padding-left: 15px; padding-right: 15px;}
+  #slides3 .slides-pagination{left: 15px; bottom: 10px;}
+  #slides3 .slides-container .caption .txt2{font-size: 16px;}
+}
